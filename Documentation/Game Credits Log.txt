@@ -1,0 +1,13 @@
+** Any time someone on the team imports an asset into the project add the credits for that object here.**
+*At the end of the project the credits on the game will have to contain the source of the assets used in the production of the product and it is way easier to just keep a log of that than re-find the source of the assets later.*
+*The name of the asset/asset package, the name of the author of the asset/asset package and the name of the website hosting the asset/asset package*
+*Example: “Asset Name by AuthorName from website.com”*
+
+Textures/Materials/Sprites:
+
+Models:
+
+Music:
+
+SFX:
+

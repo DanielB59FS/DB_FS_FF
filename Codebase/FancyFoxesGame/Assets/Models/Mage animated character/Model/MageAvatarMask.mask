@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MageAvatarMask
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: bones
+    m_Weight: 1
+  - m_Path: bones/body
+    m_Weight: 1
+  - m_Path: bones/body/back
+    m_Weight: 1
+  - m_Path: bones/body/back/neck
+    m_Weight: 1
+  - m_Path: bones/body/back/neck/head
+    m_Weight: 1
+  - m_Path: bones/body/back/neck/head/beard_1
+    m_Weight: 1
+  - m_Path: bones/body/back/neck/head/beard_1/beard_2
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_L
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_L/arm_L_1
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_R
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_R/arm_R_1
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+    m_Weight: 1
+  - m_Path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+    m_Weight: 1
+  - m_Path: bones/body/bottle
+    m_Weight: 1
+  - m_Path: bones/body/cloth_back_1
+    m_Weight: 1
+  - m_Path: bones/body/cloth_back_1/cloth_back_2
+    m_Weight: 1
+  - m_Path: bones/body/cloth_front_1
+    m_Weight: 1
+  - m_Path: bones/body/cloth_front_1/joint7
+    m_Weight: 1
+  - m_Path: bones/body/cloth_L_1
+    m_Weight: 1
+  - m_Path: bones/body/cloth_L_1/cloth_L_2
+    m_Weight: 1
+  - m_Path: bones/body/cloth_R_1
+    m_Weight: 1
+  - m_Path: bones/body/cloth_R_1/cloth_R_2
+    m_Weight: 1
+  - m_Path: bones/body/leg_L_1
+    m_Weight: 1
+  - m_Path: bones/body/leg_L_1/leg_L_2
+    m_Weight: 1
+  - m_Path: bones/body/leg_L_1/leg_L_2/foot_L
+    m_Weight: 1
+  - m_Path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+    m_Weight: 1
+  - m_Path: bones/body/leg_R_1
+    m_Weight: 1
+  - m_Path: bones/body/leg_R_1/leg_R_2
+    m_Weight: 1
+  - m_Path: bones/body/leg_R_1/leg_R_2/foot_R
+    m_Weight: 1
+  - m_Path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+    m_Weight: 1
+  - m_Path: bones/body/skull
+    m_Weight: 1
+  - m_Path: bones/stick
+    m_Weight: 1
+  - m_Path: bones/stick/stick_2
+    m_Weight: 1
+  - m_Path: Mage
+    m_Weight: 1

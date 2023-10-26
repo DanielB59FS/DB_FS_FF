@@ -1,0 +1,1357 @@
+fileFormatVersion: 2
+guid: 51af2ddd4358a4d479ac8ac14c43654b
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 148068589459077703
+    second: Mage_Tpose
+  - first:
+      74: -652279372781412039
+    second: Mage_Attack_1
+  - first:
+      74: 5733160600749092637
+    second: Mage_Attack_2
+  - first:
+      74: 1268971229760332724
+    second: Mage_Damage
+  - first:
+      74: 1462557450470880524
+    second: Mage_Death
+  - first:
+      74: 5608085438436421362
+    second: Mage_Idle
+  - first:
+      74: -2684010804651183661
+    second: Mage_Idle_long
+  - first:
+      74: -7939141635245814855
+    second: Mage_Walk
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mage_M
+    second: {fileID: 2100000, guid: cfd7eef7fbb02a144b31ebe8abbf8a22, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Mage_Attack_1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'body' has translation animation that will
+      be discarded.\n\t'body' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\nClip 'Mage_Attack_2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'body' has translation animation that will
+      be discarded.\n\t'body' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\nClip 'Mage_Damage' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'body' has translation animation that will
+      be discarded.\n\t'body' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\nClip 'Mage_Death' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'body' has translation animation that will
+      be discarded.\n\t'body' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'head' has translation animation that will be discarded.\n\nClip
+      'Mage_Idle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'body'
+      has translation animation that will be discarded.\n\t'body' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'Mage_Idle_long'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'body'
+      has translation animation that will be discarded.\n\t'body' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'beard_1'
+      has scale animation that will be discarded.\n\nClip 'Mage_Walk' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'body' has translation animation
+      that will be discarded.\n\t'body' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'toe_R' has translation animation
+      that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Mage_Tpose
+      takeName: Mage_Tpose
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Mage_Attack_1
+      takeName: Mage_Attack_1
+      internalID: 0
+      firstFrame: 20
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 0
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 0
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 0
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 0
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 0
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Mage_Attack_2
+      takeName: Mage_Attack_2
+      internalID: 0
+      firstFrame: 80
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 0
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 0
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 0
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 0
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 0
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Mage_Damage
+      takeName: Mage_Damage
+      internalID: 0
+      firstFrame: 140
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: ToggleDamageActive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: ToggleDamageActive
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 0
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 0
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 0
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 0
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 0
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 140
+    - serializedVersion: 16
+      name: Mage_Death
+      takeName: Mage_Death
+      internalID: 0
+      firstFrame: 180
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 1
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 1
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Mage_Idle
+      takeName: Mage_Idle
+      internalID: 0
+      firstFrame: 270
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 0
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 0
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 0
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 0
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 0
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 270
+    - serializedVersion: 16
+      name: Mage_Idle_long
+      takeName: Mage_Idle_long
+      internalID: 0
+      firstFrame: 360
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 0
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 0
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 0
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 0
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 0
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 360
+    - serializedVersion: 16
+      name: Mage_Walk
+      takeName: Mage_Walk
+      internalID: 0
+      firstFrame: 530
+      lastFrame: 554
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/body
+        weight: 1
+      - path: bones/body/back
+        weight: 1
+      - path: bones/body/back/neck
+        weight: 1
+      - path: bones/body/back/neck/head
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1
+        weight: 1
+      - path: bones/body/back/neck/head/beard_1/beard_2
+        weight: 0
+      - path: bones/body/back/shoulder_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L
+        weight: 1
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_1
+        weight: 0
+      - path: bones/body/back/shoulder_L/arm_L_1/arm_L_2/hand_L/finger_L_2
+        weight: 0
+      - path: bones/body/back/shoulder_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R
+        weight: 1
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_1
+        weight: 0
+      - path: bones/body/back/shoulder_R/arm_R_1/arm_R_2/hand_R/finger_R_2
+        weight: 0
+      - path: bones/body/bottle
+        weight: 0
+      - path: bones/body/cloth_back_1
+        weight: 0
+      - path: bones/body/cloth_back_1/cloth_back_2
+        weight: 0
+      - path: bones/body/cloth_front_1
+        weight: 0
+      - path: bones/body/cloth_front_1/joint7
+        weight: 0
+      - path: bones/body/cloth_L_1
+        weight: 0
+      - path: bones/body/cloth_L_1/cloth_L_2
+        weight: 0
+      - path: bones/body/cloth_R_1
+        weight: 0
+      - path: bones/body/cloth_R_1/cloth_R_2
+        weight: 0
+      - path: bones/body/leg_L_1
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L
+        weight: 1
+      - path: bones/body/leg_L_1/leg_L_2/foot_L/toe_L
+        weight: 1
+      - path: bones/body/leg_R_1
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R
+        weight: 1
+      - path: bones/body/leg_R_1/leg_R_2/foot_R/toe_R
+        weight: 1
+      - path: bones/body/skull
+        weight: 0
+      - path: bones/stick
+        weight: 1
+      - path: bones/stick/stick_2
+        weight: 0
+      - path: Mage
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 530
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: bones
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_L_1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_R_1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_L_2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_R_2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: back
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm_L_1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm_R_1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm_L_2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm_R_2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: beard_1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Mage(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mage
+      parentName: Mage(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bones
+      parentName: Mage(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: bones
+      position: {x: -0, y: 0.42227998, z: 0.03737873}
+      rotation: {x: 0.015427401, y: -0, z: -0, w: 0.999881}
+      scale: {x: 1, y: 1, z: 1}
+    - name: back
+      parentName: body
+      position: {x: -0, y: 0.16954957, z: -0.014882218}
+      rotation: {x: -0.075935416, y: 0, z: -0, w: 0.99711275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck
+      parentName: back
+      position: {x: -0, y: 0.18072939, z: -0.0014003752}
+      rotation: {x: 0.20377497, y: -0, z: -0, w: 0.9790178}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: neck
+      position: {x: -0, y: 0.0942327, z: -0.014496108}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beard_1
+      parentName: head
+      position: {x: -0, y: -0.044021025, z: 0.13704276}
+      rotation: {x: -0.32041302, y: 0, z: -0, w: 0.94727796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: beard_2
+      parentName: beard_1
+      position: {x: -0, y: -0.14778419, z: 0.015971975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_L
+      parentName: back
+      position: {x: -0.055414055, y: 0.1307773, z: -0.043239765}
+      rotation: {x: 0.075935416, y: -0, z: -0, w: 0.99711275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_L_1
+      parentName: shoulder_L
+      position: {x: -0.12734899, y: 0, z: 0}
+      rotation: {x: 0.021869095, y: 0.016005747, z: 0.03901435, w: 0.99887115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_L_2
+      parentName: arm_L_1
+      position: {x: -0.17403802, y: 0, z: -0.0011962947}
+      rotation: {x: -0.002174077, y: 0.018940642, z: -0.025274968, w: 0.9994988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_L
+      parentName: arm_L_2
+      position: {x: -0.17390983, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: finger_L_1
+      parentName: hand_L
+      position: {x: -0.037989467, y: -0.014495356, z: 0.07335472}
+      rotation: {x: 0.11748545, y: 0.546743, z: 0.058333263, w: 0.82696223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: finger_L_2
+      parentName: hand_L
+      position: {x: -0.11221399, y: -0.0045811767, z: 0}
+      rotation: {x: 0, y: 0, z: 0.08148581, w: 0.9966745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_R
+      parentName: back
+      position: {x: 0.0554141, y: 0.13077691, z: -0.04323984}
+      rotation: {x: 0.99711275, y: 0, z: 0, w: -0.075935446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_R_1
+      parentName: shoulder_R
+      position: {x: 0.1273489, y: 0, z: 0}
+      rotation: {x: 0.021869095, y: 0.016005794, z: 0.03901466, w: 0.9988711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_R_2
+      parentName: arm_R_1
+      position: {x: 0.1740376, y: -0.00000019927445, z: 0.0011962741}
+      rotation: {x: -0.00217412, y: 0.018940764, z: -0.025274893, w: 0.9994987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_R
+      parentName: arm_R_2
+      position: {x: 0.1739102, y: -0.00000016100778, z: 0.00000007437633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: finger_R_1
+      parentName: hand_R
+      position: {x: 0.037989322, y: 0.014495777, z: -0.07335482}
+      rotation: {x: 0.11748544, y: 0.546743, z: 0.05833325, w: 0.82696223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: finger_R_2
+      parentName: hand_R
+      position: {x: 0.11221388, y: 0.0045807553, z: -0.000000027790099}
+      rotation: {x: 0.000000029117933, y: 0.000000002380615, z: 0.08148581, w: 0.9966745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bottle
+      parentName: body
+      position: {x: 0.1669388, y: 0.0130626, z: 0.1284263}
+      rotation: {x: -0.057525497, y: -0.4965134, z: 0.084319584, w: 0.86200666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_L_1
+      parentName: body
+      position: {x: -0.21557134, y: -0.045881666, z: 0.01748394}
+      rotation: {x: -0.017738532, y: 0.0030040783, z: 0.6504982, w: 0.7592947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_L_2
+      parentName: cloth_L_1
+      position: {x: -0.18210188, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_R_1
+      parentName: body
+      position: {x: 0.215571, y: -0.04588143, z: 0.017483888}
+      rotation: {x: 0.7592947, y: -0.6504982, z: 0.0030040843, w: 0.017738525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_R_2
+      parentName: cloth_R_1
+      position: {x: 0.18210223, y: -0.00000041558394, z: -0.00000009064603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_back_1
+      parentName: body
+      position: {x: 0.0025778129, y: -0.05331011, z: -0.1750158}
+      rotation: {x: -0.4843317, y: -0.5240958, z: 0.47574347, w: 0.51421267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_back_2
+      parentName: cloth_back_1
+      position: {x: -0.18210188, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cloth_front_1
+      parentName: body
+      position: {x: -0.0035802342, y: -0.041565932, z: 0.15730636}
+      rotation: {x: 0.4875057, y: 0.50307524, z: 0.4969057, w: 0.5121896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint7
+      parentName: cloth_front_1
+      position: {x: -0.18210188, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_L_1
+      parentName: body
+      position: {x: -0.084371604, y: -0.08256201, z: -0.033148807}
+      rotation: {x: 0.027304223, y: -0.0089668585, z: 0.63535404, w: 0.771686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_L_2
+      parentName: leg_L_1
+      position: {x: -0.14670558, y: 0, z: 0.000783029}
+      rotation: {x: 0, y: -0.04078397, z: -0, w: 0.999168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_L
+      parentName: leg_L_2
+      position: {x: -0.14667362, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: toe_L
+      parentName: foot_L
+      position: {x: -0.009708785, y: 0.019366251, z: 0.12063331}
+      rotation: {x: -0.14158265, y: -0.043790225, z: -0.62039864, w: 0.77015734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_R_1
+      parentName: body
+      position: {x: 0.0843716, y: -0.08256197, z: -0.033148807}
+      rotation: {x: 0.771686, y: -0.63535404, z: -0.008966852, w: -0.02730423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_R_2
+      parentName: leg_R_1
+      position: {x: 0.1467059, y: -0.0000003737094, z: -0.00078303687}
+      rotation: {x: 0, y: -0.04078397, z: -0, w: 0.999168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_R
+      parentName: leg_R_2
+      position: {x: 0.14667334, y: 0.00000050087783, z: 0.000000049015323}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: toe_R
+      parentName: foot_R
+      position: {x: 0.009708785, y: -0.019366471, z: -0.12063336}
+      rotation: {x: -0.14158265, y: -0.043790225, z: -0.62039864, w: 0.77015734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull
+      parentName: body
+      position: {x: -0.19814105, y: -0.008774198, z: 0.12740049}
+      rotation: {x: -0.004067982, y: 0.27456945, z: -0.102128156, w: 0.9561197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: stick
+      parentName: bones
+      position: {x: -0.81515044, y: 0.6358038, z: 0.167283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: stick_2
+      parentName: stick
+      position: {x: 0.0285407, y: 0.30667612, z: -0.06832829}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

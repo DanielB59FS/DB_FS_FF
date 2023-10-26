@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0fba6daad4695340a21dfeb9376a5b5, type: 3}
+  m_Name: DummyMonster
+  m_EditorClassIdentifier: 
+  model: {fileID: 8995718604172022285, guid: 65485642167f95e48b7aae72349d8019, type: 3}
+  powerupPickup: {fileID: 0}
+  hpMax: 10
+  hpMin: 10
+  mana: 10
+  stamina: 1010
+  range: 10
+  teamwork: 10
+  bravery: 10
+  intelligence: 10
+  scoreValue: 10

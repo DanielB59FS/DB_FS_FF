@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271708b1ec6d349f5a7bc6b2cf0d8b0f, type: 3}
+  m_Name: Ice_Tier3
+  m_EditorClassIdentifier: 
+  abilityName: Ice
+  abilityIcon: {fileID: 21300000, guid: fb731c7d64bb141c5a9416283b1a6fd3, type: 3}
+  weakAgainstIcon: {fileID: 21300000, guid: 8dca9cec0a577459caa34a15632dd656, type: 3}
+  strongAgainstIcon: {fileID: 21300000, guid: 5ee729b53dd5f4a04894f94e2f650ed5, type: 3}
+  abilitySound: {fileID: 0}
+  abilityBaseCooldown: 2
+  timeBeforeDespawn: 10
+  abilityDamage: 8
+  powerLevel: 3
+  abilitySpeed: 400
+  hitForce: 0
+  maximumShots: 5
+  abilityAudioSource: {fileID: 0}
+  abilityAudioClip: {fileID: 0}
+  collisionGameObject: {fileID: 184234, guid: 587c3bbaa2f4849e9b693edc9d290dc4, type: 3}
+  projectilePrefab: {fileID: 1632217647111265159, guid: 7f928c0ac501f4c6186805bd424142a3,
+    type: 3}
+  strongAgainstLava: 1
+  strongAgainstNature: 0
+  strongAgainstIce: 0
+  weakAgainstLava: 0
+  weakAgainstNature: 1
+  weakAgainstIce: 0
+  isLavaType: 0
+  isIceType: 1
+  isNatureType: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee973dcf50bf3749b5a9251bdda3b03, type: 3}
+  m_Name: Drop
+  m_EditorClassIdentifier: 
+  drop:
+  - {fileID: 5386762685708582312, guid: 3d72b21b8c08f4a3d9c22e3c683a34ee, type: 3}
+  - {fileID: 5386762685708582312, guid: 3d72b21b8c08f4a3d9c22e3c683a34ee, type: 3}
+  - {fileID: 5386762685708582312, guid: 3d72b21b8c08f4a3d9c22e3c683a34ee, type: 3}
+  - {fileID: 3796734898886040582, guid: b1642b4da89984669a37a4ece42d7aef, type: 3}
+  - {fileID: 5322214505680648850, guid: dbb695be512884f10bda7fb087bf7a18, type: 3}
+  - {fileID: 3796734898886040582, guid: b1642b4da89984669a37a4ece42d7aef, type: 3}
+  - {fileID: 4457967058867851949, guid: 7fa8f1e64361d4ffb871c7a14fb9bb4c, type: 3}
+  - {fileID: 5322214505680648850, guid: dbb695be512884f10bda7fb087bf7a18, type: 3}
+  rate: 0.7

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Monster
+  - ElementalAbilityUI
+  - Enemy
+  - LavaMonster
+  - IceMonster
+  - NatureMonster
+  - ConsumableItem
+  - ItemUI
+  - Exit
+  - CreatureAbilityUI
+  - MenuScript
+  - MenuObject
+  - HudObject
+  - GameManager
+  - Ability
+  - EnemyAbility
+  - EventSystem
+  - DefaultButton
+  - DummyMonster
+  - FrenzyUI
+  - InRespawnRoom
+  - DamageIndicatorUI
+  - InSandboxRoom
+  - SceneTriggerCube
+  - ShellDomeShield
+  - DragonFire
+  - RockRain
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Clamping
+  - Water
+  - UI
+  - Miscellaneous
+  - Floor
+  - Environment
+  - Characters
+  - Projectiles
+  - Monsters
+  - Pickups
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: EntityHUD
+    uniqueID: 846345937
+    locked: 0
+  - name: ToolTips
+    uniqueID: 3193853319
+    locked: 0
+  - name: HUD
+    uniqueID: 3398489269
+    locked: 0
+  - name: UI
+    uniqueID: 1394333613
+    locked: 0

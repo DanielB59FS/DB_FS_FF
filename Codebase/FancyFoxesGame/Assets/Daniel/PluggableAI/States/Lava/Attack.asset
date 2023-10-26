@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f464ae1174725cb40b6cb2260b7ac382, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  actionsEnter: []
+  actionsUpdate:
+  - {fileID: 11400000, guid: 2c38451eb023fce43aa3908ab2c14a03, type: 2}
+  - {fileID: 11400000, guid: 9ee4d8569e9e90042b70e015a8e9d4b0, type: 2}
+  - {fileID: 11400000, guid: 2880763cb35fc354db6006911621a4f9, type: 2}
+  - {fileID: 11400000, guid: e3c84aaa8fd524e4ba40e08ed3915b4b, type: 2}
+  actionsExit: []
+  transitions:
+  - decisions:
+    - {fileID: 11400000, guid: d69b1373cda3efb4da883ccfe2e5ee16, type: 2}
+    andOrProcess: 1
+    muteTransition: 0
+    trueState: {fileID: 11400000, guid: f53342fae7c95c147b593ca477bf353a, type: 2}
+    falseState: {fileID: 0}
+  - decisions:
+    - {fileID: 11400000, guid: cf247bff7b1fd444391f2b017f63828d, type: 2}
+    andOrProcess: 1
+    muteTransition: 0
+    trueState: {fileID: 11400000, guid: 81cb20c3e09acfb47916840d12846563, type: 2}
+    falseState: {fileID: 0}
+  - decisions:
+    - {fileID: 11400000, guid: 67013e5fb016f8b42b7157c00efcb68b, type: 2}
+    - {fileID: 11400000, guid: ef5775512886b5c47ba8eb9c25ea3058, type: 2}
+    andOrProcess: 0
+    muteTransition: 0
+    trueState: {fileID: 11400000, guid: 18be7b80fd6ae13489f0c627970b52bc, type: 2}
+    falseState: {fileID: 0}
+  - decisions:
+    - {fileID: 11400000, guid: 313438329f3639247951e2294565ae2e, type: 2}
+    - {fileID: 11400000, guid: 67013e5fb016f8b42b7157c00efcb68b, type: 2}
+    andOrProcess: 1
+    muteTransition: 1
+    trueState: {fileID: 11400000, guid: 18be7b80fd6ae13489f0c627970b52bc, type: 2}
+    falseState: {fileID: 0}
+  - decisions:
+    - {fileID: 11400000, guid: 313438329f3639247951e2294565ae2e, type: 2}
+    - {fileID: 11400000, guid: 67013e5fb016f8b42b7157c00efcb68b, type: 2}
+    andOrProcess: 1
+    muteTransition: 1
+    trueState: {fileID: 11400000, guid: 18be7b80fd6ae13489f0c627970b52bc, type: 2}
+    falseState: {fileID: 0}
+  - decisions:
+    - {fileID: 11400000, guid: 313438329f3639247951e2294565ae2e, type: 2}
+    - {fileID: 11400000, guid: defd6c8447bf20a40b4e0364b03283bc, type: 2}
+    - {fileID: 11400000, guid: 72487011739c86d4585d3241fe31cb94, type: 2}
+    andOrProcess: 1
+    muteTransition: 1
+    trueState: {fileID: 11400000, guid: 18be7b80fd6ae13489f0c627970b52bc, type: 2}
+    falseState: {fileID: 0}
+  sceneGizmoColor: {r: 1, g: 0, b: 0, a: 1}

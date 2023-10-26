@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b675c3193bad14c11bb0d4ccf201bf6c, type: 3}
+  m_Name: DragonFire_Item
+  m_EditorClassIdentifier: 
+  itemName: Dragon Fire
+  itemText: Dragon Fire
+  ItemIcon: {fileID: 21300000, guid: dd3885098198d104888439be4c590aba, type: 3}
+  EmptyItemIcon: {fileID: 0}
+  itemPickupSound: {fileID: 0}
+  timeBeforeDespawn: 0
+  doesItemFloat: 1
+  floatSpeed: 2
+  floatHeight: 0.2
+  useCreatureAbilityScript: {fileID: 0}
+  ability: {fileID: 11400000, guid: b7ad4fbc452e34149b68198cf4e429d5, type: 2}

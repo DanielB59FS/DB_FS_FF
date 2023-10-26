@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0fba6daad4695340a21dfeb9376a5b5, type: 3}
+  m_Name: Bud
+  m_EditorClassIdentifier: 
+  model: {fileID: 8995718604172022285, guid: f103763bc42154e3c9eef860c1504ed8, type: 3}
+  powerupPickup: {fileID: 3820486467445564960, guid: 32fd5ddd5728248f99c608a4b8a0f93d,
+    type: 3}
+  hpMax: 35
+  hpMin: 10
+  mana: 60
+  stamina: 10
+  range: 10
+  teamwork: 3
+  bravery: 1
+  intelligence: 0
+  scoreValue: 0

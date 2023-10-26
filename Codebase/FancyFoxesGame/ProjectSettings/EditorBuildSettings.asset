@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Will/Scenes/TitleScreen.unity
+    guid: 85c99201b9e0948b8b145e6c0468b4e3
+  - enabled: 1
+    path: Assets/Will/Scenes/OutsideScene_Will.unity
+    guid: 8ae4b91d306d6409aa68b869166dd937
+  - enabled: 1
+    path: Assets/Scenes/Scene_MainMenu.unity
+    guid: 3103c5e26f92554468c62f359f958d6d
+  - enabled: 1
+    path: Assets/Marcos/Rooms/SandboxTutorialRoom.unity
+    guid: 1df1835f187b0a34a8071a0b01cdd448
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_1.unity
+    guid: 72b663a46b0ff854287942bf77110858
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_2.unity
+    guid: 703b99fb7994f1a48bf18f488b0983a5
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_3.unity
+    guid: 428a6a27c6f1d084cb30c661006a0489
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_4.unity
+    guid: 6f55aec4e9ce0f7479122658f1461efc
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_5.unity
+    guid: 66964c5fd127e9446a5bee3a49a623a9
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_6.unity
+    guid: 152bc9ffe9614994f81df56f4cf42961
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_7.unity
+    guid: 353a13c5bd8254c4ca7c59e8ef3ce125
+  - enabled: 1
+    path: Assets/Marcos/Rooms/Room1_8.unity
+    guid: 7ac4314e438ae75428ff1f78eb020411
+  - enabled: 1
+    path: Assets/Will/Scenes/EndingScene_Will.unity
+    guid: 2d23c76243f58480ca02cc848a95b991
+  - enabled: 1
+    path: Assets/Will/Scenes/EndCreditScenes.unity
+    guid: 99eed7aeb98af4a1d93bea5026bdfdad
+  m_configObjects: {}

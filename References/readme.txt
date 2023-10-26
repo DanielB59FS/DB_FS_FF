@@ -1,0 +1,1 @@
+After Pre production tasks have been completed download a copy of all documents from google drive to this folder for a record.
